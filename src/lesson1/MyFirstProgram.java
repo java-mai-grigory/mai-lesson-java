@@ -13,7 +13,5 @@ public class MyFirstProgram {
 		System.out.println(s + ": " + a);
 		
 		System.out.printf("%s:  %d  вывод %f", s, a, d);
-		
-		
 	}
 }

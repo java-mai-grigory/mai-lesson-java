@@ -25,7 +25,7 @@ public class Question {
 	{
 		System.out.println(question);
 	
-		/*	for(int i = 0; i < AnswerList.size(); i++)
+	/*	for(int i = 0; i < AnswerList.size(); i++)
 			System.out.println(AnswerList.get(i));*/
 		
     	for(String str: AnswerList)
@@ -36,11 +36,11 @@ public class Question {
 
 	public boolean answer(int index)
 	{
-		if (index == RightAnswer)
+		/*if (index == RightAnswer)
 			return true;
 		else
-			return false;
+			return false;*/
+
+		return (index == RightAnswer);
 	}
-	
-	
 }

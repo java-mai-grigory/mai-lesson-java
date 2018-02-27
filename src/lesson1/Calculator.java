@@ -23,7 +23,9 @@ public class Calculator {
 	{
 		return arg1 + arg2;
 	}
-	
+
+	public void inc()  { result++; }
+	public void decr()  { result--; }
 
 	public Calculator() {
 		result = 0;
