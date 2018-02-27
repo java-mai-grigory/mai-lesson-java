@@ -27,6 +27,7 @@ public class Qiuz {
 				System.out.println("Ошибка");
 			}
 		}
+		scan.close();
 	}
 
 }
