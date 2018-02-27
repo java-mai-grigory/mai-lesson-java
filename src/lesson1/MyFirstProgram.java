@@ -4,7 +4,7 @@ public class MyFirstProgram {
 	
 	static public void main(String[] args)
 	{
-		String s = "Мои первая программа";
+		String s = "РњРѕСЏ РїРµСЂРІР°СЏ РїСЂРѕРіСЂР°РјРјР°";
 		int a = 5;
 		double d = 3.34562;
 		boolean b = true;
@@ -12,7 +12,7 @@ public class MyFirstProgram {
 		
 		System.out.println(s + ": " + a);
 		
-		System.out.printf("%s:  %d  вывод %f", s, a, d);
+		System.out.printf("%s:  %d  РІС‹РІРѕРґ %f", s, a, d);
 		
 		
 	}
