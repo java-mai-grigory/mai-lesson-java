@@ -31,6 +31,10 @@ public class Calculator {
 		result = 0;
 	}
 	
-	
-	
+	public int compare(Calculator other)
+	{
+		if (result > other.result )  return 1;
+		else if (result < other.result )  return -1;
+		else return 0;
+	}
 }
